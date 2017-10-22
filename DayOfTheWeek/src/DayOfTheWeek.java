@@ -12,7 +12,7 @@ public class DayOfTheWeek {
             System.out.println("Not valid number. Please enter number from 1 to 7");
             someText = one.nextInt();
         }
-        String [] smallPrimes = {"","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
-        System.out.println(smallPrimes[someText]);
+        String [] daysOfTheWeek = {"","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
+        System.out.println("The " + someText + " day is: " + daysOfTheWeek[someText]);
     }
 }
